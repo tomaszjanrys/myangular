@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalacje</title>
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-2">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-cli-list" data-toggle="list" href="#list-cli" role="tab" aria-controls="cli">Angular CLI</a>
+                <a class="list-group-item list-group-item-action" id="list-boot-list" data-toggle="list" href="#list-boot" role="tab" aria-controls="boot">Bootstrap</a>
+                <a class="list-group-item list-group-item-action" id="list-chartjs-list" data-toggle="list" href="#list-chartjs" role="tab" aria-controls="chartjs">Chart js</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-cli" role="tabpanel" aria-labelledby="list-cli-list">
+                    <!--Start-------- Instalacja Angular Cli -->
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"> <span class="badge badge-warning badge-pill">1</span>Przed ...</a>
+                                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><span class="badge badge-warning badge-pill">2</span>Instalacja Angular CLI</a>
+                                <a class="list-group-item list-group-item-action" id="list-linki-list" data-toggle="list" href="#list-linki" role="tab" aria-controls="linki"><span class="badge badge-dark badge-pill">3</span>Linki </a>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                    <ul>
+                                        <li>Pobieramy <a href="https://nodejs.org/en/">Node js</a></li>
+                                        <li>W terminalu sparwdzamy wersję node -v </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                                    <ul>Angulara instalujemy wpisując w terminalu komendę
+                                        <li><span id="one">npm install -g @angular/cli</span></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="list-linki" role="tabpanel" aria-labelledby="list-linki-list">
+                                    <ul>
+                                        <li>Dokumentacja <a href="https://angular.io/docs">Angular</a></li>
+                                        <li>Nauka <a href="https://www.w3schools.com/angular/default.asp">Angular JS</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END---------- Instalacja Angular Cli -->
+                </div>
+                <div class="tab-pane fade" id="list-boot" role="tabpanel" aria-labelledby="list-boot-list">
+                    <!--START---------- Instalacja BOOT -->
+
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-bootone-list" data-toggle="list" href="#list-bootone" role="tab" aria-controls="bootone"> <span class="badge badge-warning badge-pill">1</span>W terminalu </a>
+                                <a class="list-group-item list-group-item-action" id="list-boottwo-list" data-toggle="list" href="#list-boottwo" role="tab" aria-controls="boottwo"><span class="badge badge-warning badge-pill">2</span>W pliku <span id="json">angular.json</span></a>
+                                <a class="list-group-item list-group-item-action" id="list-bootthree-list" data-toggle="list" href="#list-bootthree" role="tab" aria-controls="bootthree"><span class="badge badge-dark badge-pill">3</span>Linki </a>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-bootone" role="tabpanel" aria-labelledby="list-bootone-list">
+                                    <ul class="one">
+                                        <li><span>npm install bootstrap</span></li>
+                                        <li><span>npm install jquery </span></li>
+                                        <li><span>npm install popper.js</span></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="list-boottwo" role="tabpanel" aria-labelledby="list-boottwo-list">
+                                    <h2>Odnajdujemy sekcję :</h2>
+                                    <ul>
+
+                                        <li>
+                                            <span class="tekst2">build </span>
+                                            <ul>
+                                                <li> <span class="tekst2">options</span>
+                                                    <ul>
+                                                        <li><span class="tekst2">styles</span></li>
+                                                        <span>W styles dodajemy :</span>
+
+
+                                                        <p class="tekst3"> "node_modules/bootstrap/dist/css/bootstrap.css",</p>
+                                                        <p class="tekst3"> "src/styles.css"</p>
+
+                                                        <hr>
+                                                        <p> Dla less</p>
+
+                                                        <p class="tekst3"> "src/styles.less",</p>
+
+                                                        <hr>
+                                                        <p> Dla Sass</p>
+                                                        <p class="tekst3"> "node_modules/bootstrap/scss/bootstrap.scss",</p>
+                                                        <p class="tekst3"> "src/styles.scss",</p>
+                                                        <li><span class="tekst2">Script</span></li>
+                                                        <p class="tekst4"> "node_modules/jquery/dist/jquery.slim.js",</p>
+                                                        <p class="tekst4"> "node_modules/popper.js/dist/umd/popper.js",</p>
+                                                        <p class="tekst4"> "node_modules/bootstrap/dist/js/bootstrap.js"</p>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="list-bootthree" role="tabpanel" aria-labelledby="list-bootthree-list">
+                                    <ul>
+                                        <li>Dokumentacja <a href="https://getbootstrap.com/">Bootstarp</a></li>
+                                        <li>Nauka <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Bootstarp</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--END---------- Instalacja BOOT -->
+                </div>
+                <div class="tab-pane fade" id="list-chartjs" role="tabpanel" aria-labelledby="list-chartjs-list">
+                    <!--START---------- Instalacja Chart js -->
+                    <div class="container mt-3">
+
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="list-group" id="list-tab" role="tablist">
+                                    <a class="list-group-item list-group-item-action active" id="list-chart-list" data-toggle="list" href="#list-chart" role="tab" aria-controls="chart"><span class="badge badge-warning badge-pill">1</span>W terminalu</a>
+                                    <a class="list-group-item list-group-item-action" id="list-chartone-list" data-toggle="list" href="#list-chartone" role="tab" aria-controls="chartone"><span class="badge badge-dark badge-pill">2</span>Linki</a>
+                                    <a class="list-group-item list-group-item-action" id="list-chartthree-list" data-toggle="list" href="#list-chartthree" role="tab" aria-controls="chartthree"><span class="badge badge-dark badge-pill">3</span>Przykłady</a>
+                                    <a class="list-group-item list-group-item-action" id="list-chartfour-list" data-toggle="list" href="#list-chartfour" role="tab" aria-controls="chartfour"><span class="badge badge-dark badge-pill">4</span>Opis</a>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="list-chart" role="tabpanel" aria-labelledby="list-chart-list">
+                                        <ul>
+                                            <li><span>npm install ng2-charts</span></li>
+                                            <li><span>npm install chart.js</span></li>
+                                        </ul>
+                                        <ul>
+                                            Następnie w :
+                                            <li><span>SRC</span>
+                                                <ul>
+                                                    <li><span>INDEX.HTML</span>
+                                                        <p>Wklejamy :
+                                                            <li><span>   script src="node_modules/chart.js/src/chart.js"   /script   </span> </li>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            Następnie w :
+                                            <ul>
+                                                <li><span>SRC </span>
+                                                    <ul>
+                                                        <li><span>APP</span>
+                                                            <ul>
+                                                                <li><span>app.modules.ts</span></li>
+                                                                Odnajdujemy :
+                                                                <li><span>@NgModule </span>i w <span>imports </span>dopisujemy :</li>
+                                                                <li><span>
+                                                                ChartsModule</span></li>
+
+
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="list-chartone" role="tabpanel" aria-labelledby="list-chartone-list">
+                                        <ul>
+                                            <li>Strona główna <a href="https://www.chartjs.org//">Chart js</a></li>
+                                            <li>Dokumentacja <a href="https://www.chartjs.org/docs/latest/">Chart js</a></li>
+                                            <li>Przykłady <a href="https://medium.com/codingthesmartway-com-blog/angular-chart-js-with-ng2-charts-e21c8262777f">Chart js</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-pane fade" id="list-chartthree" role="tabpanel" aria-labelledby="list-chartthree-list">Przykłady</div>
+                                    <div class="tab-pane fade" id="list-chartfour" role="tabpanel" aria-labelledby="list-chartfour-list">Opis</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END---------- Instalacja Chart js -->
+                </div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -4,17 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
-import { InstalacjaComponent } from './instalacja/instalacja.component';
-import { BootstrapComponent } from './bootstrap/bootstrap.component';
-import { ChartjsComponent } from './chartjs/chartjs.component';
+import { AngularcliComponent } from './angularcli/angularcli.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    InstalacjaComponent,
-    BootstrapComponent,
-    ChartjsComponent
+    AngularcliComponent
   ],
   imports: [
     BrowserModule,

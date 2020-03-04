@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BootstrapComponent } from './bootstrap.component';
+import { AngularcliComponent } from './angularcli.component';
 
-describe('BootstrapComponent', () => {
-  let component: BootstrapComponent;
-  let fixture: ComponentFixture<BootstrapComponent>;
+describe('AngularcliComponent', () => {
+  let component: AngularcliComponent;
+  let fixture: ComponentFixture<AngularcliComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BootstrapComponent ]
+      declarations: [ AngularcliComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BootstrapComponent);
+    fixture = TestBed.createComponent(AngularcliComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
