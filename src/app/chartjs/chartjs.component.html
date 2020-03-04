@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart js - Instalacja</title>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h1>Instalacja Chart js</h1>
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-start-list" data-toggle="list" href="#list-start" role="tab" aria-controls="start"><span class="badge badge-warning badge-pill">1</span>W terminalu</a>
+                    <a class="list-group-item list-group-item-action" id="list-linki-list" data-toggle="list" href="#list-linki" role="tab" aria-controls="linki"><span class="badge badge-dark badge-pill">2</span>Linki</a>
+                    <a class="list-group-item list-group-item-action" id="list-przyklady-list" data-toggle="list" href="#list-przyklady" role="tab" aria-controls="przyklady"><span class="badge badge-dark badge-pill">3</span>Przykłady</a>
+                    <a class="list-group-item list-group-item-action" id="list-opis-list" data-toggle="list" href="#list-opis" role="tab" aria-controls="opis"><span class="badge badge-dark badge-pill">4</span>Opis</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-start" role="tabpanel" aria-labelledby="list-start-list">
+                        <ul>
+                            <li><span>npm install ng2-charts</span></li>
+                            <li><span>npm install chart.js</span></li>
+                        </ul>
+                        <ul>
+                            Następnie w :
+                            <li><span>SRC</span>
+                                <ul>
+                                    <li><span>INDEX.HTML</span>
+                                        <p>Wklejamy :
+                                            <li><span>   script src="node_modules/chart.js/src/chart.js"   /script   </span> </li>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            Następnie w :
+                            <ul>
+                                <li><span>SRC </span>
+                                    <ul>
+                                        <li><span>APP</span>
+                                            <ul>
+                                                <li><span>app.modules.ts</span></li>
+                                                Odnajdujemy :
+                                                <li><span>@NgModule </span>i w <span>imports </span>dopisujemy :</li>
+                                                <li><span>
+                                                  ChartsModule</span></li>
+
+
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="list-linki" role="tabpanel" aria-labelledby="list-linki-list">
+                        <ul>
+                            <li>Strona główna <a href="https://www.chartjs.org//">Chart js</a></li>
+                            <li>Dokumentacja <a href="https://www.chartjs.org/docs/latest/">Chart js</a></li>
+                            <li>Przykłady <a href="https://medium.com/codingthesmartway-com-blog/angular-chart-js-with-ng2-charts-e21c8262777f">Chart js</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="list-przyklady" role="tabpanel" aria-labelledby="list-przyklady-list">Przykłady</div>
+                    <div class="tab-pane fade" id="list-opis" role="tabpanel" aria-labelledby="list-opis-list">Opis</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
