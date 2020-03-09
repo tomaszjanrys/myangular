@@ -1,0 +1,37 @@
+.pink {
+    font-weight: bold;
+    color: crimson;
+}
+
+.darkcyan {
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.darkgoldenrod {
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.green {
+    font-weight: bold;
+    color: green;
+}
+
+.darkslategrey {
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+.example {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#nav-tabContent2 {
+    font-size: 2rem;
+}
+
+ol {
+    font-weight: bold;
+}

@@ -1,1 +1,78 @@
-<p>javascriptbasic works!</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-2">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-zmienne-list" data-toggle="list" href="#list-zmienne" role="tab" aria-controls="zmienne">Zmienne</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"></a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"></a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"></a>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-zmienne" role="tabpanel" aria-labelledby="list-zmienne-list">
+                    <!---Zemienne-->
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="list-group" id="list-tab2" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-info-list" data-toggle="list" href="#list-info" role="tab" aria-controls="info">Informacje</a>
+                                <a class="list-group-item list-group-item-action" id="list-let-list" data-toggle="list" href="#list-let" role="tab" aria-controls="let">Let</a>
+                                <a class="list-group-item list-group-item-action" id="list-const-list" data-toggle="list" href="#list-const" role="tab" aria-controls="const">Const</a>
+                                <a class="list-group-item list-group-item-action" id="list-var-list" data-toggle="list" href="#list-var" role="tab" aria-controls="var">Var</a>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <div class="tab-content" id="nav-tabContent2">
+                                <div class="tab-pane fade show active" id="list-info" role="tabpanel" aria-labelledby="list-info-list">
+                                    <p>Zmienna przechowuje dane w pamięci. Składa się z trzech zasadniczych elementów. </p>
+                                    <ol>
+                                        <li>
+                                            <p>Nazwa - <span class="darkcyan">INDYFIKATOR</span></p>
+                                        </li>
+                                        <li>
+                                            <p>Miejsca w pamięci. </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <span class="darkcyan"> Wartości</span> - string , boolean, number , obiekty, funkcje itd.
+                                            </p>
+                                        </li>
+                                    </ol>
+                                    <p>Tworzenie zmiennej. </p>
+                                    <p class="example"><span class="darkgoldenrod">var</span> <span class="darkcyan"> nazwaZmiennej</span> <span class="pink"> = </span> <span class="green">23;</span></p>
+                                    <p> " <span class="pink">=</span> " - operator - znak przypisania. Do zmiennej zostanie przypisana wartość <span class="green">23</span> typu <b>number</b> /<span class="green">"23"</span> wartość typu <b>string</b>.
+
+                                    </p>
+                                    <p>Zmienna została zdeklarowana i zinicjalizowana czyli została przypisana wartość</p>
+                                    <p>Zmienna bez wartości jest tylko zdeklarowana i otrzymuje automatycznie wartość <span class="darkslategrey">UNDEFINDED - niezdefiniowane</span></p>
+                                    <p>Zmienne var let możemy dowolnie zmieniać np. z string na number </p>
+
+                                </div>
+                                <div class="tab-pane fade" id="list-let" role="tabpanel" aria-labelledby="list-let-list">let</div>
+                                <div class="tab-pane fade" id="list-const" role="tabpanel" aria-labelledby="list-const-list">const</div>
+                                <div class="tab-pane fade" id="list-var" role="tabpanel" aria-labelledby="list-var-list">Var</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---end zmienne-->
+
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
